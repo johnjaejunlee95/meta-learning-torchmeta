@@ -65,7 +65,6 @@ python train_maml.py --datasets [DATASETS] --epoch 60000 --num_shots 5 --batch_s
 ```
 #### Prototypical Networks
 
-`Euclidean` classifier
 ```
 python train_proto.py --datasets [DATASETS] --num_ways_proto 20 --num_shots 5 --epoch 200 --batch_size 100 
 ```
@@ -137,4 +136,3 @@ option arguments:
 - [torchmeta](https://github.com/tristandeleu/pytorch-meta)
 - [SiMT](https://github.com/jihoontack/SiMT/tree/main) 
 - [BOIL](https://github.com/HJ-Yoo/BOIL)
-# meta-learning-pytorch
