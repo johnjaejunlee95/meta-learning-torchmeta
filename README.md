@@ -68,6 +68,7 @@ python train_maml.py --datasets [DATASETS] --epoch 60000 --num_shots 5 --batch_s
 `Euclidean` classifier
 ```
 python train_proto.py --datasets [DATASETS] --num_ways_proto 20 --num_shots 5 --epoch 200 --batch_size 100 
+```
 
 
 ### Evaluation / Test
