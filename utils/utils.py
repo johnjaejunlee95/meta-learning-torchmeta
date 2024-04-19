@@ -71,7 +71,7 @@ def log_(name):
 def euclidean_distance(a, b):
     n = a.shape[0]
     m = b.shape[0]
-
+    
     a = a.unsqueeze(1).expand(n, m, -1)
     b = b.unsqueeze(0).expand(n, m, -1)
 

@@ -4,7 +4,7 @@ from torchvision import transforms
 from torchmeta.datasets import MiniImagenet, TieredImagenet, CUB, CIFARFS
 from torchmeta.transforms import ClassSplitter, Categorical
 
-DATA_PATH = '/data2/jjlee_datasets/datasets'
+DATA_PATH = '/data2/jjlee_datasets/torchmeta_datasets/'
 
 
 class ToTensor1D(object):
